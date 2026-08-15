@@ -1,2 +1,53 @@
 # ai-credit-risk-prediction
 comparative study of traditional statistical and machine learning models for AI-based credit risk prediction in banking and finance.
+## Project Overview
+
+This project develops an AI-based Credit Risk Prediction system using machine learning techniques.
+
+The objective is to predict whether a customer is likely to default on credit payments based on historical financial and credit information.
+
+## Machine Learning Models
+
+Two models were developed and compared:
+
+1. Logistic Regression
+2. Random Forest Classifier
+
+## Model Performance
+
+| Model | Accuracy | Precision | Recall | F1 Score | ROC-AUC |
+|------|------|------|------|------|------|
+| Logistic Regression | 0.808 | 0.687 | 0.240 | 0.355 | 0.708 |
+| Random Forest | 0.812 | 0.631 | 0.365 | 0.462 | 0.754 |
+
+Random Forest achieved the better overall performance, particularly in ROC-AUC, recall and F1 score.
+
+## Technologies Used
+
+- Python
+- Pandas
+- NumPy
+- Scikit-learn
+- Matplotlib
+- Jupyter Notebook
+- Git & GitHub
+
+## Dataset
+
+The project uses the Default of Credit Card Clients dataset containing historical customer credit and payment information.
+
+## Key Features
+
+- Credit risk data preprocessing
+- Exploratory data analysis
+- Logistic Regression modelling
+- Random Forest modelling
+- Confusion Matrix evaluation
+- ROC Curve and ROC-AUC evaluation
+- Model performance comparison
+
+## Conclusion
+
+Random Forest was selected as the better-performing model in this comparative study.
+
+The model can serve as a foundation for credit-risk analysis. Before real-world banking use, it would require further validation, threshold optimization, monitoring, regulatory review, and testing on institution-specific data.
